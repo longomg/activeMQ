@@ -15,7 +15,7 @@ public class Consumer {
         Session session = null;//会话
         Destination destination  = null;//消息目的地，就是一个消息队列
         MessageConsumer messageConsumer  = null;//消息生产者
-
+        //注解
         try {
             //1.连接MQ
             System.out.println("username:"+USERNAME);
